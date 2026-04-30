@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="الوسط للسياحة (Alwasit Turizm) - بوابتك للسياحة الفاخرة في تركيا. متخصصون في الجولات السياحية في اسطنبول، بورصة، وطرابزون، بالإضافة للسياحة العلاجية (زراعة الشعر وتجميل الأسنان) وتأجير السيارات الفارهة.">
+    <meta name="keywords" content="سياحة في تركيا 2026, افضل شركة سياحة في اسطنبول, جولات سياحية طرابزون, اكواخ اوزنجول, زراعة الشعر في تركيا, تجميل الاسنان اسطنبول, حجز فنادق رخيصة تركيا, تأجير سيارات مع سائق تركيا, رحلات يومية اسطنبول, رحلات بورصة وسبانجا, اسعار السياحة في تركيا, الوسط للسياحة">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TravelAgency",
+  "name": "الوسط للسياحة - Alwasit Turizm",
+  "description": "شركة رائدة في تقديم الخدمات السياحية والطبية في تركيا.",
+  "url": "https://yourdomain.com",
+  "telephone": "+905523555222",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Istanbul",
+    "addressCountry": "TR"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "ما هي أفضل الجولات السياحية في اسطنبول؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "تشمل أفضل الجولات رحلة جزر الأميرات، بورصة الخضراء، سبانجا ومعشوقية، وجولات مدينة اسطنبول التاريخية."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "هل توفر شركة الوسط خدمات السياحة العلاجية؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "نعم، نقدم خدمات متكاملة للسياحة العلاجية تشمل زراعة الشعر، تجميل الأسنان، وتجميل القوام بأيدي أمهر الأطباء في تركيا."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "هل يمكن استئجار سيارة مع سائق خاص؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "بالتأكيد، نوفر أسطولاً من السيارات الفاخرة (فان VIP) مع سائقين يتحدثون العربية لضمان راحتكم."
+      }
+    }
+  ]
+}
+</script>
+
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Arabic">
+    <meta name="revisit-after" content="2 days">
+    <meta name="geo.region" content="TR">
+    <meta name="geo.placename" content="Istanbul">
+
+    <title>Alwasit Turizm | سياحة فاخرة</title>
+    <link rel="icon" href="assets/LOGO 9 .png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-matte-charcoal">
+
+    <header class="glass-header fixed top-0 w-full z-50 py-3 px-5 md:px-12 transition-all">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <img src="assets/LOGO 9 .png" alt="Alwasit Turizm" class="h-12 w-auto object-contain">
+            </div>
+            <nav class="hidden md:flex gap-7 text-base font-medium">
+                <a href="#home" class="hover:text-deep-red transition" style="color: var(--text);">الرئيسية</a>
+                <a href="#tours" class="hover:text-deep-red transition" style="color: var(--text);">جولات</a>
+                <a href="#medical" class="hover:text-deep-red transition" style="color: var(--text);">سياحة علاجية</a>
+                <a href="#hotels" class="hover:text-deep-red transition" style="color: var(--text);">فنادق</a>
+                <a href="#flights" class="hover:text-deep-red transition" style="color: var(--text);">حجز الطيران</a>
+                <a href="#cars" class="hover:text-deep-red transition" style="color: var(--text);">تأجير السيارات</a>
+                <a href="#contact" class="hover:text-deep-red transition" style="color: var(--text);">اتصل بنا</a>
+            </nav>
+            <div class="md:hidden text-2xl cursor-pointer" id="mobile-menu-btn" style="color: var(--text);">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-overlay"></div>
+
+    <!-- Mobile Sidebar -->
+    <div class="mobile-sidebar" id="mobile-sidebar">
+        <div class="close-btn" id="mobile-close-btn"><i class="fas fa-times"></i></div>
+        <a href="#home">الرئيسية</a>
+        <a href="#tours">جولات</a>
+        <a href="#medical">سياحة علاجية</a>
+        <a href="#hotels">فنادق</a>
+        <a href="#flights">حجز الطيران</a>
+        <a href="#cars">تأجير السيارات</a>
+        <a href="#contact">اتصل بنا</a>
+    </div>
+
+    <main class="pt-28 md:pt-32 overflow-hidden">
+        <section id="home" class="container mx-auto px-5 md:px-12 py-6 section-fade">
+            <div class="hero-bg-turkey rounded-2xl overflow-hidden shadow-2xl">
+                <div class="flex flex-col lg:flex-row items-center justify-between p-8 md:p-12">
+                    <div class="flex-1 text-right z-10">
+                        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight text-white">سافر بثقة <span class="text-deep-red" style="color: #d4a373;">مع الوسيط للسياحة</span></h1>
+                        <p class="text-gray-200 text-lg md:text-xl mt-5">رحلات حصرية، خدمات طبية، إقامات فاخرة — نصنع لك تجارب لا تُنسى.</p>
+                        <div class="mt-8 flex flex-wrap gap-4 justify-end">
+                            <a href="#booking-section" class="btn-primary px-7 py-3 rounded-xl text-white font-bold inline-block shadow-lg">احجز الآن <i class="fas fa-arrow-left mr-2"></i></a>
+                            <a href="#tours" class="border border-deep-red px-7 py-3 rounded-xl text-white font-medium hover:bg-white/10 transition" style="border-color: #d4a373;">استكشف الجولات</a>
+                        </div>
+                    </div>
+                    <div class="flex-1 hidden lg:block"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mx-auto px-5 md:px-12 py-16 section-fade" id="stats-section">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="premium-card p-6">
+                    <div class="stat-number" id="tripsCounter">0</div>
+                    <div class="text-lg font-bold mt-2" style="color: var(--primary);"><i class="fas fa-route ml-1"></i> رحلة منظمة</div>
+                </div>
+                <div class="premium-card p-6">
+                    <div class="stat-number" id="clientsCounter">0</div>
+                    <div class="text-lg font-bold mt-2" style="color: var(--primary);"><i class="fas fa-user-friends ml-1"></i> عميل سعيد</div>
+                </div>
+                <div class="premium-card p-6">
+                    <div class="stat-number" id="destinationsCounter">0</div>
+                    <div class="text-lg font-bold mt-2" style="color: var(--primary);"><i class="fas fa-map-marked-alt ml-1"></i> وجهة فاخرة</div>
+                </div>
+                <div class="premium-card p-6">
+                    <div class="stat-number" id="yearsCounter">0</div>
+                    <div class="text-lg font-bold mt-2" style="color: var(--primary);"><i class="fas fa-medal ml-1"></i> سنوات خبرة</div>
+                </div>
+            </div>
+        </section>
+
+        <div id="tours" class="category-section section-fade container mx-auto px-5 md:px-12 py-6 mt-4">
+            <h2 class="text-3xl font-bold pr-2 border-r-4 border-deep-red inline-block mb-8"><i class="fas fa-umbrella-beach ml-3 text-deep-red"></i> رحلات يومية</h2>
+            <div id="tours-container"></div>
+        </div>
+
+        <div id="medical" class="category-section section-fade container mx-auto px-5 md:px-12 py-6 mt-4">
+            <h2 class="text-3xl font-bold pr-2 border-r-4 border-deep-red inline-block mb-8"><i class="fas fa-stethoscope ml-3 text-deep-red"></i> السياحة العلاجية</h2>
+            <div id="medical-container"></div>
+        </div>
+
+        <div id="hotels" class="category-section section-fade container mx-auto px-5 md:px-12 py-6 mt-4">
+            <h2 class="text-3xl font-bold pr-2 border-r-4 border-deep-red inline-block mb-8"><i class="fas fa-hotel ml-3 text-deep-red"></i> فنادق راقية</h2>
+            <div id="hotels-container"></div>
+        </div>
+
+        <div id="apartments" class="category-section section-fade container mx-auto px-5 md:px-12 py-6 mt-4">
+            <h2 class="text-3xl font-bold pr-2 border-r-4 border-deep-red inline-block mb-8"><i class="fas fa-building ml-3 text-deep-red"></i> شقق فاخرة</h2>
+            <div id="apartments-container"></div>
+        </div>
+
+        <div id="cottages" class="category-section section-fade container mx-auto px-5 md:px-12 py-6 mt-4">
+            <h2 class="text-3xl font-bold pr-2 border-r-4 border-deep-red inline-block mb-8"><i class="fas fa-tree ml-3 text-deep-red"></i> أكواخ وريف</h2>
+            <div id="cottages-container"></div>
+        </div>
+
+        <div id="flights" class="category-section section-fade container mx-auto px-5 md:px-12 py-6 mt-4">
+            <h2 class="text-3xl font-bold pr-2 border-r-4 border-deep-red inline-block mb-8"><i class="fas fa-plane-departure ml-3 text-deep-red"></i> حجز الطيران</h2>
+            <div id="flights-container"></div>
+        </div>
+
+        <div id="cars" class="category-section section-fade container mx-auto px-5 md:px-12 py-6 mt-4">
+            <h2 class="text-3xl font-bold pr-2 border-r-4 border-deep-red inline-block mb-8"><i class="fas fa-car ml-3 text-deep-red"></i> تأجير السيارات الفاخرة</h2>
+            <div id="cars-container"></div>
+        </div>
+
+        <section id="booking-section" class="container mx-auto px-5 md:px-12 py-20 section-fade">
+            <div class="premium-card p-6 md:p-10 max-w-4xl mx-auto">
+                <h3 class="text-2xl md:text-3xl font-bold text-center mb-6"><i class="fas fa-calendar-check ml-2 text-deep-red"></i> طلب حجز فوري</h3>
+                <form id="bookingForm" class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                    <input type="text" id="name" placeholder="الاسم الكامل" required class="w-full">
+                    <input type="tel" id="phone" placeholder="رقم الهاتف" required class="w-full">
+                    <input type="date" id="tripDate" required class="w-full">
+                    <textarea id="message" rows="3" placeholder="تفاصيل الرحلة أو الخدمة (نوع الرحلة، عدد الأشخاص، متطلبات خاصة...)" class="w-full md:col-span-2"></textarea>
+                    <button type="submit" class="btn-primary w-full md:col-span-2 py-3 rounded-xl text-white font-bold text-lg"><i class="fab fa-whatsapp ml-2"></i> إرسال عبر واتساب</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="contact" class="container mx-auto px-5 md:px-12 py-12 section-fade border-t border-gray-200 mt-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+                <div class="text-center md:text-right">
+                    <img src="assets/LOGO 9 .png" alt="logo" class="h-12 mb-3 mx-auto md:mx-0">
+                    <p class="text-secondary" style="color: var(--text-secondary);">نسعد بخدمتكم على مدار الساعة</p>
+                </div>
+                <div class="flex gap-5">
+                    <a href="https://www.facebook.com/share/1HvpmTsVgV/" target="_blank" class="social-icon"><i class="fab fa-facebook-f text-xl"></i></a>
+                    <a href="https://www.instagram.com/alusturizm?utm_source=qr&igsh=MWZudWhscTh4dGppbg==" target="_blank" class="social-icon"><i class="fab fa-instagram text-xl"></i></a>
+                    <a href="https://www.tiktok.com/@alwasitturizm?_r=1&_t=ZS-95jKLXxaQ45" target="_blank" class="social-icon"><i class="fab fa-tiktok text-xl"></i></a>
+                </div>
+            </div>
+            <div class="text-center text-sm mt-10" style="color: var(--text-secondary);">© 2026 Alwasit Turizm - جميع الحقوق محفوظة</div>
+        </section>
+    </main>
+
+    <a href="https://wa.me/905523555222?text=مرحباً%20أود%20الاستفسار%20عن%20الخدمات" target="_blank" class="floating-wa flex items-center gap-2 text-white font-bold"><i class="fab fa-whatsapp text-2xl"></i><span class="hidden sm:inline">واتساب</span></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
